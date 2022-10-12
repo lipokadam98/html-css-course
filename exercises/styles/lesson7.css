@@ -1,0 +1,134 @@
+
+
+img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.exercise-7a{
+    width: 200px;
+    border-radius: 10%;
+}
+
+.exercise-7b{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    object-position:center;
+}
+
+.exercise-7c{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    object-position:center;
+    border-radius: 50%;
+}
+
+.exercise-7d{
+    font-family: Arial;
+    border-radius:5px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.exercise-7e{
+    font-family: Arial;
+    font-weight: 600;
+    border: none;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px #3b3838c9;
+    border-radius: 20px;
+    transition: outline 0.3s;
+}
+
+/*Az input mező körül lévő kattintás utáni keret az nem border hanem az outline*/
+.exercise-7e:focus{
+    outline: solid rgb(82, 166, 221) thin;
+}
+
+.email-label{
+    color: gray;
+    font-size: 12px;
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+
+.privacy-policy-text{
+    color: gray;
+    font-size: 12px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.agree-join-button{
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    background-color: rgb(38, 69, 207);
+    cursor: pointer;
+    transition: opacity 0.3s;
+    margin-bottom: 50px;
+}
+
+.agree-join-button:hover{
+    opacity: 0.9;
+}
+
+.agree-join-button:active{
+    opacity: 0.8;
+}
+
+.twitter-profile-img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    object-fit:cover;
+    object-position:center;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.twitter-input{
+    vertical-align: middle;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: outline 0.5s,box-shadow 0.5s;
+}
+
+.twitter-input:focus{
+    outline: solid rgb(82, 166, 221) thin;
+    box-shadow: 0 0 10px #1DA1F2;
+}
+
+.twitter-button{
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #1DA1F2;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 7px 15px 7px 15px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.twitter-div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 0 5px #3b3838c9;
+}

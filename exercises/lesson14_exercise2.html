@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            body{
+                padding-top: 60px;
+                padding-left: 200px;
+                background-color: gray;
+            }
+            .header{
+                display: flex;
+                position: fixed;
+                padding-left: 50px;
+                padding-right: 50px;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 50px;
+                background-color: white;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                box-shadow: 0 0 2px rgba(175, 174, 174, 0.61);
+                align-items: center;
+                justify-content: space-between;
+            }
+  
+            .left-section{
+                display: flex;
+                align-items: center;
+            }
+
+            .right-section{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                justify-content: space-around;
+            }
+ 
+            .header-title{
+                font-weight: bold;
+                font-family: Arial;
+                flex-shrink: 0;
+                font-size: 12px;
+            }
+  
+            .friend-button{
+                background-color: rgb(77, 108, 211);
+                border: none;
+                border-radius: 5px;
+                padding: 5px 10px 5px 10px;
+                color: white;
+                font-weight: bold;
+                font-family: Arial;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+            .message-button{
+                background-color: rgb(180, 172, 172);
+                border: none;
+                border-radius: 5px;
+                padding: 5px 10px 5px 10px;
+                font-weight: bold;
+                font-family: Arial;
+                font-size: 10px;
+                cursor: pointer;
+            }
+            .header-img{
+                width: 30px;
+                height: 30px;
+                max-width: 30px;
+                max-height: 30px;
+                object-fit: cover;
+                margin-right: 10px;
+                border-radius: 50%;
+                box-shadow: 0 0 2px rgba(175, 174, 174, 0.61);
+            }
+
+            .input{
+                height: 500px;
+                width: 500px;
+            }
+
+            .side-nav{
+                overflow-y: auto;
+                overflow-x: hidden;
+                position: fixed;
+                padding-top: 10px;
+                padding-left: 10px;
+                left: 0;
+                bottom: 0;
+                top: 51px;
+                width: 30px;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                background-color: rgb(26, 25, 25);
+                flex-direction: column;
+            }
+            .sidenav-inner{
+                position: fixed;
+                top: 51px;
+                left: 40px;
+                bottom: 0;
+                width: 150px;
+                background-color: rgb(43, 41, 41);
+            }
+
+            .inner-flexbox{
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                padding-right: 10px;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+            .info{
+                font-size: 12px;
+                font-family: Arial;
+                color: antiquewhite;
+            }
+
+            .add-button{
+                background-color: transparent;
+                border: none;
+                font-size: 14px;
+                color: antiquewhite;
+                cursor: pointer;
+            }
+
+            .inner-column{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+                padding-left: 10px;
+            }
+
+            .column-text{
+                margin: 0;
+                font-size: 14px;
+                font-family: Arial;
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                    <img class="header-img" src="thumbnails/cat.jpg">
+                    <p class="header-title">Oliver cat</p>
+                   
+            </div>
+            <div class="right-section">
+                    <button class="friend-button">Add Friend</button>
+                    <button class="message-button">Message</button>
+            </div>
+        </div>
+
+        <div class="side-nav">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+            <img class="header-img" src="thumbnails/cat.jpg">
+        </div>
+
+        <div class="sidenav-inner">
+                <div class="inner-flexbox">
+                    <p class="info">INFO</p>
+                    <button class="add-button">+</button>
+                </div>
+                <div class="inner-column">
+                    <p class="column-text"># new videos</p>
+                    <p class="column-text"># updates</p>
+                    <p class="column-text"># faq</p>
+                </div>
+        </div>
+
+        <p>dasdsds</p>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .grid-11a {
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+
+        .grid-11b {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            margin-bottom: 20px;
+        }
+
+        .grid-11c {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .grid-11d{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+
+        .blue {
+            background-color: lightblue;
+        }
+
+        .pink {
+            background-color: lightpink;
+        }
+
+
+        .card {
+            margin-top: 10px;
+            display: inline-block;
+            width: 100%;
+            box-shadow: 0 0 10px #3b3838c9;
+        }
+
+        .card-image {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .card-content {
+            padding: 10px
+        }
+
+        .card-title {
+            margin-top: 0;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-family: Roboto;
+            font-size: 14px;
+            color: gray;
+        }
+
+        .card-button {
+            padding: 10px 15px 10px 15px;
+            border: none;
+            background-color: rgb(53, 53, 250);
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: Roboto;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-11a">
+        <div class="blue">200px</div>
+        <div class="pink">75px</div>
+    </div>
+    <div class="grid-11b">
+        <div class="blue">col1</div>
+        <div class="pink">col2</div>
+        <div class="blue">col3</div>
+    </div>
+    <div class="grid-11c">
+        <div class="pink">col1</div>
+        <div class="pink">col2</div>
+        <div class="pink">col3</div>
+        <div class="pink">col4</div>
+        <div class="pink">col1</div>
+        <div class="pink">col2</div>
+        <div class="pink">col3</div>
+        <div class="pink">col4</div>
+    </div>
+    <div class="grid-11d">
+        <div class="card">
+            <img class="card-image" src="thumbnails/cat.jpg">
+            <div class="card-content">
+                <p class="card-title">Oliver</p>
+                <p class="card-text">2 mutual friends</p>
+                <button class="card-button">Add Friend</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img class="card-image" src="thumbnails/cat.jpg">
+            <div class="card-content">
+                <p class="card-title">Oliver</p>
+                <p class="card-text">2 mutual friends</p>
+                <button class="card-button">Add Friend</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img class="card-image" src="thumbnails/cat.jpg">
+            <div class="card-content">
+                <p class="card-title">Oliver</p>
+                <p class="card-text">2 mutual friends</p>
+                <button class="card-button">Add Friend</button>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+
+</html>

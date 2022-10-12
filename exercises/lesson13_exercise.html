@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container{
+                display: flex;
+                height: 50px;
+                flex-direction: row;
+            }
+
+            .top-margin{
+                margin-top: 50px;
+            }
+
+            .container-100-a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                background-color: lightpink;
+            }
+
+            .container-200-a{
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                background-color: lightblue;
+            }
+
+            .black-and-white{
+                background-color: black;
+                margin: 0;
+                font-size: 12px;
+                color: white;
+            }
+            .row-1{
+                display: flex;
+                align-items: flex-start;
+            }
+            .row-2{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .black-text{
+                font-size: 12px;
+            }
+
+
+            /**
+            GMAIL css
+            **/
+
+            .inbox-title{
+                color: gray;
+                font-size: 15px;
+            }
+
+            .gmail-box{
+                margin-top: 10px;
+                padding: 10px;
+                box-shadow: 0 0 5px rgb(173, 170, 170);
+            }
+            .message-box{
+                margin-top: 10px;
+                display: flex;
+            }
+
+            .image{
+                display: flex;
+                padding: 10px;
+                align-items: center;
+            }
+            .profile-pic{
+                width: 45px;
+                height: 45px;
+                object-fit:cover;
+                object-position: center;
+                border-radius: 50px;
+            }
+
+            .message-detail{
+                display: flex;
+                flex: 1;
+                width: 0;
+                flex-direction: column;
+            }
+            .message-title{
+                display: flex;
+                padding-top: 10px;
+                margin-bottom: 5px;
+                justify-content: space-between;
+            }
+
+            .email-from{
+                flex-shrink: 0;
+                font-size: 15px;
+                font-weight: bold;
+            }
+
+            .email-date{
+                flex-shrink: 0;
+                font-size: 12px;
+                color: gray;
+            }
+
+            .email-title{
+                font-size: 14px;
+                font-weight: bold;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .email-description{
+                font-size: 14px;
+                color: gray;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="container-100-a">
+                <p class="black-and-white">
+                    item1
+                </p>
+            </div>
+            <div class="container-200-a">
+            </div>
+        </div>
+
+
+        <div class="container top-margin">
+            <div class="container-100-a">
+              
+            </div>
+            <div class="container-200-a">
+                <div class="row-1">
+                    asd
+                </div>
+                <div class="row-2">
+                    <p class="black-and-white">row2</p>
+                    <p class="black-and-white">row2</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gmail-box">
+            <p class="inbox-title">All INBOXES</p>
+            <div class="message-box">
+                <div class="image">
+                    <img class="profile-pic" src="thumbnails/cat.jpg">
+                </div>
+                
+                <div class="message-detail">
+                    <div class="message-title">
+                        <p class="email-from">Chewy Promotions</p>
+                        <p class="email-date">4:58 PM</p>
+                    </div>
+                 
+                    <p class="email-title">
+                        Biggest sales of the year
+                    </p>
+                    <p class="email-description">
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                    </p>
+                </div>
+            </div>
+            
+            <div class="message-box">
+                <div class="image">
+                    <img class="profile-pic" src="thumbnails/cat.jpg">
+                </div>
+                
+                <div class="message-detail">
+                    <div class="message-title">
+                        <p class="email-from">Chewy Promotions</p>
+                        <p class="email-date">4:58 PM</p>
+                    </div>
+                 
+                    <p class="email-title">
+                        Biggest sales of the year
+                    </p>
+                    <p class="email-description">
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                    </p>
+                </div>
+            </div>
+
+            <div class="message-box">
+                <div class="image">
+                    <img class="profile-pic" src="thumbnails/cat.jpg">
+                </div>
+                
+                <div class="message-detail">
+                    <div class="message-title">
+                        <p class="email-from">Chewy Promotions</p>
+                        <p class="email-date">4:58 PM</p>
+                    </div>
+                 
+                    <p class="email-title">
+                        Biggest sales of the year
+                    </p>
+                    <p class="email-description">
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                        adasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqw
+                        eadasd e ewewqeqweqw ewqasdasdasd das dasdas dasqweqwe
+                    </p>
+                </div>
+            </div>
+            
+         
+        </div>
+
+    </body>
+</html>

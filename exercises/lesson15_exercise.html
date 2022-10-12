@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 15 exercise</title>
+    <style>
+        body{
+            position: relative;
+            height: 3000px;
+        }
+
+        .close-button{
+            font-size: 16px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border: 0;
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+            box-shadow: 0 0 4px gray;
+            padding: 10px 14px 10px 14px;
+        }
+
+        .gray-box {
+            background-color: gray;
+            position: fixed;
+            width: 320px;
+            height: 180px;
+            bottom: 15px;
+            right: 15px;
+        }
+
+        .close-position{
+            position: absolute;
+            top: -15px;
+            left: 15px;
+        }
+
+        .image{
+            width: 100%;
+        }
+
+        .timestamp{
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background-color: black;
+            color: white;
+            font-size: 12px;
+            font-family: Arial;
+            padding: 2px 4px 2px 4px;
+        }
+
+        .image-container{
+            height: 100%;
+            display: inline-block;
+            border: 1px solid gray;
+            position: relative;
+        }
+
+        .clothing-tag{
+            position: absolute;
+            top: 10px;
+            right: 0;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            font-family: Arial;
+            padding: 6px 8px 6px 8px;
+        }
+
+        .add-to-cart{
+            position: absolute;
+            display: flex;
+            top: 60%;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(151, 148, 148, 0.61);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cart-button{
+            cursor: pointer;
+            color: black;
+            border: 1px solid black;
+            font-size: 16px;
+            padding: 10px 15px 10px 15px;
+        }
+        .grid{
+            column-gap: 20px;
+            row-gap: 20px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <button class="close-button">X</button>
+    <div class="gray-box">
+        <div class="close-position">
+            <button class="close-button">X</button>
+        </div>
+        <div class="timestamp">0:29</div>
+    </div>
+    
+    <!--<div class="image-container">
+        <img class="image" src="jacket.jpg">
+        <div class="clothing-tag">20% OFF</div>
+        <div class="add-to-cart">
+            <div class="button-container">
+                <button class="cart-button">Add to cart</button>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="grid">
+        <div class="image-container">
+            <img class="image" src="jacket.jpg" alt="clothing">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img class="image" src="jacket.jpg">
+            <div class="clothing-tag">20% OFF</div>
+            <div class="add-to-cart">
+                <div class="button-container">
+                    <button class="cart-button">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

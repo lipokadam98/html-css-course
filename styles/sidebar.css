@@ -1,0 +1,55 @@
+
+.sidebar{
+    width: 72px;
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+/*
+A   flex-direction: column; esetében az align-items és a justify content
+felcserélődik
+**/
+
+.sidebar-link{
+    display: flex;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+/*
+Az így megadott css ben 
+az asd és asd2 re lesznek érvényesek a cssben megadott értékek
+.asd,.asd2{
+
+}
+
+Így viszont az asd class elementen belül található img elementekre
+lesz érvényes a css
+.asd2 img{
+
+}
+
+
+**/
+
+
+.sidebar-link div{
+    font-size: 10px;
+    font-family: Arial,Roboto;
+}
+
+.sidebar-link img{
+    height: 24px;
+}
