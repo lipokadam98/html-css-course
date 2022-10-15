@@ -1,0 +1,42 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.video-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.video-img{
+    z-index: 0;
+    width: 100%;
+}
+
+.video-grid-left{
+    display: flex;
+    gap: 5px;
+    flex-direction: column; 
+    justify-content: flex-end;
+}
+
+.video-grid-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.video-details,.video-description{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+@media (max-width: 900px) {
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
+}

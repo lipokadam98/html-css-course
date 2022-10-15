@@ -1,0 +1,16 @@
+.page-header{
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid gray;
+    z-index: 200;
+    background-color: rgba(250, 245, 245, 0.699);
+}
