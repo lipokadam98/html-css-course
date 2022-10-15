@@ -1,10 +1,32 @@
 p {
-    font-family: Roboto, Arial;
     margin-top: 0;
     margin-bottom: 0;
 }
 
+/*
+A texthez kapcsolódó 
+stílus beállítások öröklődnek az element összes gyermek elemére
+*/
+
+/*
+CSS specificity is the behaviour when a more specific CSS element 
+targeting for example targeting the element by id or class
+ is overriding a more higher level of element targeting for example
+ a whole element and its children under it.
+
+ So if you set a style for the font color of red for the whole body
+ and the children of body the texts will become red. But if its child
+ element has a more specific targeting by id or class it will override
+ the color of red with the other color in the style.
+*/
+
+
+/*
+Semantic elements are the same as a div elements but they
+have meaning to screen readers and search engines.
+*/
 body{
+    font-family: Roboto, Arial;
     margin: 0;
     padding-top: 80px;
     padding-left: 96px;
