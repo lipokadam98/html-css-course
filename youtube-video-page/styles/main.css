@@ -29,11 +29,40 @@
     justify-content: flex-start;
 }
 
+.video-details{
+    font-weight: 500;
+}
+
+.video-details .stats{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .video-details,.video-description{
     padding-bottom: 10px;
     border-bottom: 1px solid gray;
 }
 
+.stat-button{
+    background-color:rgba(199, 194, 194, 0.164);
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.stat-button:hover{
+    background-color:rgba(199, 194, 194, 0.4);
+}
+
+.stat-button:active{
+    background-color:rgba(199, 194, 194, 0.6);
+}
 
 @media (max-width: 900px) {
     .video-grid{
